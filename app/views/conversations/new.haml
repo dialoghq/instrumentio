@@ -1,0 +1,54 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+- if in_mobile_view?
+  = javascript_include_tag :jquery
+  = javascript_include_tag :mobile
+
+:javascript
+  $(document).ready(function () {
+    var data = $.parseJSON( "#{escape_javascript(@contacts_json)}" ),
+        autocompleteInput = $("#contact_autocomplete");
+
+    autocompleteInput.autoSuggest(data, {
+      selectedItemProp: "name",
+      searchObjProps: "name",
+      asHtmlID: "contact_ids",
+      retrieveLimit: 10,
+      minChars: 1,
+      keyDelay: 0,
+      startText: '',
+      emptyText: '#{t('no_results')}',
+      preFill: [{name : "#{params[:name]}",
+                 value : "#{@contact_ids}"}]
+      });
+    autocompleteInput.focus();
+  });
+
+#new_message_pane
+  .span-12.last
+    #facebox_header
+      %h3
+        = t('conversations.index.new_message')
+
+    = form_for Conversation.new do |conversation|
+
+      .span-2
+        %h4
+          = t('.to')
+      .span-10.last
+        = text_field_tag "contact_autocomplete"
+      .clearfix
+      %br
+      .span-2
+        %h4
+          = t('.subject')
+      .span-10.last
+        = conversation.text_field :subject
+      %br
+      .span-10.prepend-2.last
+        = text_area_tag "conversation[text]", '', :rows => 5
+      .clearfix
+      .bottom_submit_section
+        = conversation.submit t('.send'), 'data-disable-with' => t('.sending'), :class => 'button creation'

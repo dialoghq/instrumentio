@@ -1,0 +1,127 @@
+#   Copyright (c) 2010-2012, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+
+
+pt-PT:
+  javascripts:
+    aspect_dropdown:
+      add_to_aspect: "Adicionar contacto"
+      all_aspects: "Todos os grupos"
+      error: "Não foi possível começar a partilhar com {{name}}. Você está a ignorá-los?"
+      select_aspects: "Selecionar grupos"
+      started_sharing_with: "Começou a partilhar com {{name}}!"
+      stopped_sharing_with: "Deixou de partilhar com {{name}}."
+      toggle:
+        one: "Em <%=count %> grupo"
+        other: "Em <%=count %> grupos"
+        zero: "Selecione os grupos"
+    aspect_navigation:
+      deselect_all: "Desmarcar todos"
+      no_aspects: "Nenhuns aspectos selecionados"
+      select_all: "Selecionar todos"
+    comments:
+      hide: "ocultar comentários"
+      show: "mostrar todos os comentários"
+    confirm_dialog: "Tem a certeza?"
+    delete: "Eliminar"
+    failed_to_like: "Falhou em gostar!"
+    failed_to_post_message: "Falhou ao publicar a mensagem!"
+    getting_started:
+      alright_ill_wait: "Tudo bem, eu esperarei."
+      hey: "Ei, {{name}}!"
+      no_tags: "Ei, não está a seguir nenhuma etiqueta! Continuar mesmo assim?"
+      preparing_your_stream: "A preparar o seu fluxo personalizado..."
+    header:
+      admin: "Administrador"
+      close: "fechar"
+      contacts: "Contactos "
+      home: "Inicio "
+      log_out: "Sair"
+      mark_all_as_read: "Marcar tudo como lido"
+      messages: "Mensagens"
+      notifications: "Notificações"
+      profile: "Perfil"
+      recent_notifications: "Últimas Notificações"
+      search: "Procurar"
+      settings: "Definições"
+      view_all: "Ver tudo"
+    ignore: "Ignorar"
+    infinite_scroll:
+      no_more: "Não há mais publicações."
+    my_activity: "Minha atividade"
+    my_stream: "Fluxo"
+    people:
+      not_found: "e ninguém foi encontrado..."
+    photo_uploader:
+      looking_good: "OMD, tu estás fantástico(a)!"
+    publisher:
+      at_least_one_aspect: "Tem de publicar em pelo menos um grupo"
+      limited: "Limitado - a sua publicação só será vista pelas pessoas com as quais está a partilhar"
+      public: "Público - A sua publicação será visível para todos e encontrada por motores de busca"
+    reshares:
+      duplicate: "Que bom, hein? Você já republicou essa mensagem!"
+      post: "Repartilhar a publicação de <%= name %>?"
+      successful: "A publicação foi repartilhada com sucesso!"
+    search_for: "Procurar por {{name}}"
+    show_more: "mostrar mais"
+    stream:
+      comment: "Comentar"
+      follow: "Seguir"
+      hide: "Ocultar"
+      hide_nsfw_posts: "Ocultar publicações #nsfw"
+      like: "Gostar"
+      likes:
+        one: "<%= count %> gosto"
+        other: "<%= count %> gostos"
+        zero: "<%= count %> gosto"
+      limited: "Limitado"
+      more_comments:
+        few: "Mostrar <%= count %> mais comentários"
+        many: "Mostrar <%= count %> mais comentários"
+        one: "Mostras <%= count %> mais comentários"
+        other: "Mostrar <%= count %> mais comentários"
+        two: "Mostrar <%= count %> mais comentários"
+        zero: "Mostrar <%= count %> mais comentários"
+      original_post_deleted: "Publicação original eliminada pelo autor."
+      public: "Público"
+      reshare: "Partilhar"
+      reshares:
+        one: "<%= count %> repartilha"
+        other: "<%= count %> repartilhas"
+        zero: "<%= count %> repartilhas"
+      show_nsfw_post: "Mostrar publicação"
+      show_nsfw_posts: "Mostrar todos"
+      unfollow: "Não seguir"
+      unlike: "Não gostar"
+    tags:
+      wasnt_that_interesting: "OK, suponho que #{{tagName}} não era assim tão interessante..."
+    timeago:
+      day: "um dia"
+      days: "%d dias"
+      hour: "cerca de uma hora"
+      hours: "cerca de %d horas"
+      minute: "cerca de um minuto"
+      minutes: "%d minutos"
+      month: "cerca de um mês"
+      months: "%d meses"
+      prefixAgo: "Há"
+      prefixFromNow: ""
+      seconds: "menos de um minuto"
+      suffixAgo: ""
+      suffixFromNow: "a partir de agora"
+      year: "cerca de um ano"
+      years: "%d anos"
+    videos:
+      unknown: "Formato de vídeo desconhecido"
+      watch: "Veja este vídeo no {{provider}}"
+    viewer:
+      comment: "Comentário"
+      follow_post: "Seguir a publicação"
+      home: "INÍCIO"
+      like: "Gostar"
+      reshare: "Repartilhar"
+      reshared: "Repartilhado"
+      stop_following_post: "Parar de seguir a publicação"
+      unlike: "Não gostar"

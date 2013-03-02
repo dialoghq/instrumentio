@@ -1,0 +1,136 @@
+#   Copyright (c) 2010-2012, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+
+
+fr:
+  javascripts:
+    aspect_dropdown:
+      add_to_aspect: "Ajouter le contact"
+      all_aspects: "Tous les aspects"
+      error: "Impossible de partager avec <%= name %>. Ignorez-vous cette personne ?"
+      select_aspects: "Choisir les aspects"
+      started_sharing_with: "Vous avez commencé à partager avec <%= name %> !"
+      stopped_sharing_with: "Vous avez arrêté de partager avec <%= name %>."
+      toggle:
+        few: "Dans <%= count %> aspects"
+        many: "Dans <%= count %> aspects"
+        one: "Dans <%= count %> aspect"
+        other: "Dans <%= count %> aspects"
+        two: "Dans <%= count %> aspects"
+        zero: "Sélectionnez les aspects"
+    aspect_navigation:
+      deselect_all: "Désélectionner tout"
+      no_aspects: "Aucun aspect sélectionné"
+      select_all: "Sélectionner tout"
+    comments:
+      hide: "Cacher les commentaires"
+      show: "Afficher tous les commentaires"
+    confirm_dialog: "Êtes-vous sûr ?"
+    delete: "Effacer"
+    failed_to_like: "Impossible d'aimer !"
+    failed_to_post_message: "Impossible de partager le message !"
+    getting_started:
+      alright_ill_wait: "Bon, je vais attendre."
+      hey: "Hey, <%= name %> !"
+      no_tags: "Hey, vous ne suivez aucun tag ! Continuer quand même ?"
+      preparing_your_stream: "Préparation de votre flux personnalisé..."
+    header:
+      admin: "Administration"
+      close: "fermer"
+      contacts: "Contacts"
+      home: "Accueil"
+      log_out: "Se déconnecter"
+      mark_all_as_read: "Tout marquer comme lu"
+      messages: "Messages"
+      notifications: "Notifications"
+      profile: "Profil"
+      recent_notifications: "Notifications récentes"
+      search: "Trouver des personnes ou #tags"
+      settings: "Paramètres"
+      view_all: "Tout afficher"
+    ignore: "Ignorer"
+    infinite_scroll:
+      no_more: "Pas d'autres messages."
+    my_activity: "Mon activité"
+    my_stream: "Flux"
+    people:
+      not_found: "Et personne n'a été trouvé ..."
+    photo_uploader:
+      looking_good: "Impressionnant, vous avez un super look !"
+    publisher:
+      at_least_one_aspect: "Vous devez créer au moins un aspect"
+      limited: "Limité - votre message ne sera vu que par des gens avec qui vous partagez"
+      public: "Public - votre message sera visible de tous et trouvé par les moteurs de recherche"
+    reshares:
+      duplicate: "C'est si bien que ça ? Vous avez déjà repartagé ce message !"
+      post: "Repartager le message de <%= name %> ?"
+      successful: "Le message a été repartagé !"
+    search_for: "Chercher <%= name %>"
+    show_more: "Voir plus"
+    stream:
+      comment: "Commenter"
+      follow: "Suivre"
+      hide: "Masquer"
+      hide_nsfw_posts: "Masquer les messages #nsfw"
+      like: "J'aime"
+      likes:
+        few: "<%= count %> J'aime"
+        many: "<%= count %> J'aime"
+        one: "<%= count %> J'aime"
+        other: "<%= count %> J'aime"
+        two: "<%= count %> J'aime"
+        zero: "<%= count %> J'aime"
+      limited: "Limité"
+      more_comments:
+        few: "Montrer <%= count %> commentaires en plus"
+        many: "Montrer <%= count %> commentaires en plus"
+        one: "Montrer <%= count %> commentaire supplémentaire"
+        other: "Montrer <%= count %> commentaires supplémentaires"
+        two: "Montrer <%= count %> commentaires en plus"
+        zero: "Montrer <%= count %> commentaires supplémentaires"
+      original_post_deleted: "Le message original a été effacé par son auteur."
+      public: "Public"
+      reshare: "Repartager"
+      reshares:
+        few: "<%= count %> repartages"
+        many: "<%= count %> repartages"
+        one: "<%= count %> repartage"
+        other: "<%= count %> repartages"
+        two: "<%= count %> Repartages"
+        zero: "<%= count %> repartages"
+      show_nsfw_post: "Montrer le message"
+      show_nsfw_posts: "Tout montrer"
+      unfollow: "Ne pas suivre"
+      unlike: "Je n'aime plus"
+    tags:
+      wasnt_that_interesting: "Ok, je suppose que #<%= tagName %> n'est pas la seule chose qui vous intéresse..."
+    timeago:
+      day: "environ un jour"
+      days: "environ %d jours"
+      hour: "environ une heure"
+      hours: "environ %d heures"
+      minute: "environ une minute"
+      minutes: "environ %d minutes"
+      month: "environ un mois"
+      months: "environ %d mois"
+      prefixAgo: "il y a"
+      prefixFromNow: "d'ici"
+      seconds: "moins d'une minute"
+      suffixAgo: ""
+      suffixFromNow: "maintenant"
+      year: "un an"
+      years: "%d ans"
+    videos:
+      unknown: "Type de vidéo inconnu"
+      watch: "Voir cette vidéo sur <%= provider %>"
+    viewer:
+      comment: "Commenter"
+      follow_post: "Suivre cette discussion"
+      home: "Accueil"
+      like: "J'aime"
+      reshare: "Repartager"
+      reshared: "Repartagé"
+      stop_following_post: "Ne plus suivre cette discussion"
+      unlike: "Je n'aime plus"

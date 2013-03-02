@@ -1,0 +1,133 @@
+#   Copyright (c) 2010-2012, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+
+
+nn:
+  javascripts:
+    aspect_dropdown:
+      add_to_aspect: "Legg til kontakt"
+      all_aspects: "Alle aspekta"
+      error: "Klarte ikkje å byrja å dela med <%= name %>.  Ignorerer du dei?"
+      select_aspects: "Vel aspekt"
+      started_sharing_with: "Du har byrja å dela med <%= name %>"
+      stopped_sharing_with: "Du deler ikkje lenger med <%= name %>."
+      toggle:
+        one: "I <%= count %> aspekt"
+        other: "I <%= count %> aspekt"
+        zero: "Vel aspekt"
+    aspect_navigation:
+      deselect_all: "Vel vekk alle"
+      no_aspects: "Ingen aspekt er valde"
+      select_all: "Vel alle"
+    comments:
+      hide: "gøym merknader"
+      show: "syn alle merknadene"
+    confirm_dialog: "Er du sikker?"
+    delete: "Slett"
+    failed_to_like: "Like-funksjonen feila."
+    failed_to_post_message: "Klarte ikkje å senda meldinga."
+    getting_started:
+      alright_ill_wait: "Greitt, eg ventar."
+      hey: "Hei, {{name}}!"
+      no_tags: "Du har ikkje følgt nokon etikett. Vil du likevel halda fram?"
+      preparing_your_stream: "Lagar den tilpassa straumen din …"
+    header:
+      admin: "Admin"
+      close: "lukk"
+      contacts: "Kontaktar"
+      home: "Heim"
+      log_out: "Logg ut"
+      mark_all_as_read: "Merk alle som lesne"
+      messages: "Meldingar"
+      notifications: "Varsel"
+      profile: "Profil"
+      recent_notifications: "Nylege varsel"
+      search: "Find people or #tags"
+      settings: "Innstillingar"
+      view_all: "Syn alle"
+    ignore: "Oversjå"
+    infinite_scroll:
+      no_more: "Ingen fleire meldingar."
+    my_activity: "Min aktivitet"
+    my_stream: "Straum"
+    people:
+      not_found: "orsak, me kunne ikkje finne nokon."
+    photo_uploader:
+      looking_good: "Du verda, du ser flott ut!"
+    publisher:
+      at_least_one_aspect: "Du må offentleggjera til minst eitt aspekt"
+      limited: "Avgrensa - berre personar du deler med vil kunna sjå meldinga"
+      public: "Offentleg - alle kan sjå meldinga di og ho kan bli funnen av søkjemotorar"
+    reshares:
+      duplicate: "Så bra, altså? Men du har allereie delt meldinga :-)"
+      post: "Vil du dele <%= name %> sin post?"
+      successful: "Hurra, posten vart delt!"
+    search_for: "Leit etter {{name}}"
+    show_more: "syn meir"
+    stream:
+      comment: "Kommenter"
+      follow: "Følg"
+      hide: "Gøym"
+      hide_nsfw_posts: "Gøym innlegg merka med #nsfw"
+      like: "Lik"
+      likes:
+        few: "<%= count %> Likes"
+        many: "<%= count %> Likes"
+        one: "<%= count %> likar dette"
+        other: "<%= count %> likar dette"
+        two: "<%= count %> Likes"
+        zero: "<%= count %> likar dette"
+      limited: "Avgrensa"
+      more_comments:
+        few: "Show <%= count %> more comments"
+        many: "Show <%= count %> more comments"
+        one: "Syn <%= count %> kommentar meir"
+        other: "Syn <%= count %> fleire kommentarar"
+        two: "Show <%= count %> more comments"
+        zero: "Syn <%= count %> fleire kommentarar"
+      original_post_deleted: "Det opprinnelege innlegget er sletta av forfattaren."
+      public: "Offentleg"
+      reshare: "Del"
+      reshares:
+        few: "<%= count %> Reshares"
+        many: "<%= count %> Reshares"
+        one: "<%= count %> deling"
+        other: "<%= count %> delingar"
+        two: "<%= count %> Reshares"
+        zero: "<%= count %> delingar"
+      show_nsfw_post: "Syn innlegg"
+      show_nsfw_posts: "Syn alt"
+      unfollow: "Ikkje følg"
+      unlike: "Lik ikkje lenger"
+    tags:
+      wasnt_that_interesting: "Greitt, #<%= tagName %> var vel kanskje ikkje så interessant …"
+    timeago:
+      day: "i går"
+      days: "%d dagar"
+      hour: "om lag ein time"
+      hours: "om lag %d timar"
+      minute: "om lag eit minutt"
+      minutes: "%d minutt"
+      month: "om lag ein månad"
+      months: "%d månader"
+      prefixAgo: ""
+      prefixFromNow: ""
+      seconds: "mindre enn eit minutt"
+      suffixAgo: "sidan"
+      suffixFromNow: "frå no"
+      year: "om lag eit år"
+      years: "%d år"
+    videos:
+      unknown: "Ukjend videotype"
+      watch: "Sjå denne videoen hos {{provider}}"
+    viewer:
+      comment: "Kommenter"
+      follow_post: "Følg innlegg"
+      home: "HEIM"
+      like: "Lik"
+      reshare: "Del"
+      reshared: "Delt"
+      stop_following_post: "Ikkje følg innlegg meir"
+      unlike: "Lik ikkje lenger"
