@@ -46,6 +46,7 @@ group :production do # we don't install these on travis to speed up test runs
   gem 'rack-google-analytics', '0.11.0', :require => 'rack/google-analytics'
   gem 'rack-piwik', '0.1.3', :require => 'rack/piwik', :require => false
 
+  gem 'minitest', '4.3.2'
 end
 
 
@@ -76,8 +77,8 @@ gem 'rails-i18n', '0.7.2'
 # parsing
 
 gem 'nokogiri', '1.5.6'
-gem 'redcarpet', "2.2.2"
-gem 'roxml', :git => 'https://github.com/Empact/roxml.git', :ref => '7ea9a9ffd2338aaef5b0'
+gem 'redcarpet', '2.2.2'
+gem 'roxml', '3.1.6'
 gem 'ruby-oembed', '0.8.8'
 
 # queue
