@@ -1,3 +1,7 @@
+# 0.0.2.1
+
+* Upgrade to Rails 3.2.10 as per CVE-2012-5664. [Read more](https://groups.google.com/group/rubyonrails-security/browse_thread/thread/c2353369fea8c53)
+
 # 0.0.2.0
 
 ## Refactor
@@ -78,7 +82,6 @@
 * webmock 1.8.10 -> 1.8.11
 
 And their dependencies.
-
 
 # 0.0.1.2
 
